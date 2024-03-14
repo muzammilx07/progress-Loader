@@ -1,0 +1,29 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.progressbar {
+    height: 22px;
+    border: 1px solid black;
+    width: 22rem;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    background-color: aliceblue;
+}
+
+.level {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.status {
+    margin-top: 10px;
+}
